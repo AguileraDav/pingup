@@ -60,6 +60,8 @@ const ChatBox = () => {
           <button onClick={sendMessage} className='bg-gradient-to-br from-indigo-500 to-purple-600 hover:from-indigo-700 hover:to-purple-800 active:scale-95 cursor-pointer text-white p-2 rounded-full'>
             <SendHorizonal size={18}/>
           </button>
+
+          {/* Voice Message Button */}
         </div>
       </div>
     </div>
